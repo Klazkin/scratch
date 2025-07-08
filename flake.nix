@@ -36,6 +36,7 @@
             nodePackages.typescript-language-server
             nodePackages.pnpm
             poetry
+            jetbrains.jdk
           ];
 
           RUSTC_VERSION = overrides.toolchain.channel;
