@@ -1,0 +1,19 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm ./src/index.ts",
+    "start": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^24.0.10",
+    "dotenv": "^17.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
+}
